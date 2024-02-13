@@ -1,12 +1,20 @@
-![New York City schoolbus](schoolbus.jpg)
+# NYC Public School SAT Performance Analysis
 
-Photo by [Jannis Lucas](https://unsplash.com/@jannis_lucas) on [Unsplash](https://unsplash.com).
-<br>
+## Description
+This project analyzes the SAT performance of New York City (NYC) public high schools. The SAT is a standardized test used for college admissions in the United States, comprising three sections: reading, math, and writing, each with a maximum score of 800 points. The analysis provided in this Python project helps various stakeholders understand the performance landscape of schools in NYC.
 
-Every year, American high school students take SATs, which are standardized tests intended to measure literacy, numeracy, and writing skills. There are three sections - reading, math, and writing, each with a **maximum score of 800 points**. These tests are extremely important for students and colleges, as they play a pivotal role in the admissions process.
+## Dataset
+The dataset used for this analysis is `schools.csv`, which contains information on various high schools in NYC, including their average scores in reading, math, and writing sections of the SAT.
 
-Analyzing the performance of schools is important for a variety of stakeholders, including policy and education professionals, researchers, government, and even parents considering which school their children should attend. 
+## Analysis
+The project answers three key questions:
+1. Which schools have the best performance in math?
+2. What are the top 10 schools based on total SAT score?
+3. In Manhattan, how many schools are there, and what is the average and standard deviation of their total SAT scores?
 
-You have been provided with a dataset called `schools.csv`, which is previewed below.
+The analysis is performed using Python and the Pandas library for data manipulation.
 
-You have been tasked with answering three key questions about New York City (NYC) public school SAT performance.
+## Installation
+To run this project, you will need to have Python and Pandas installed. You can install Pandas using pip:
+
+pip install pandas
